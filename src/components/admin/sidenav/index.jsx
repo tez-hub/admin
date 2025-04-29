@@ -4,10 +4,10 @@ const AdminNav = () => {
   return (
     <aside className="h-screen w-64 bg-gray-900 text-white flex flex-col">
       <div className="text-2xl font-bold p-6 border-b border-gray-700">
-        Admin Dashboard
+        Admin
       </div>
       {/* Scrollable nav area */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto hide-scrollbar">
         <NavItem icon={<Home />} label="Dashboard" />
         <NavItem icon={<Users />} label="Users" />
         <NavItem icon={<BarChart />} label="Reports" />
