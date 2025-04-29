@@ -7,7 +7,7 @@ const AdminNav = () => {
         Admin
       </div>
       {/* Scrollable nav area */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto hide-scrollbar">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto hide-scrollbar sticky">
         <NavItem icon={<Home />} label="Dashboard" />
         <NavItem icon={<Users />} label="Users" />
         <NavItem icon={<BarChart />} label="Reports" />
